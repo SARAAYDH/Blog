@@ -5,7 +5,7 @@ from django.views.generic import ListView
 from .models import Post,Comment
 
 #from .forms import LoginForm
-from .form import EmailPostForm
+from .forms import EmailPostForm
  
 from django.core.mail import send_mail
 
